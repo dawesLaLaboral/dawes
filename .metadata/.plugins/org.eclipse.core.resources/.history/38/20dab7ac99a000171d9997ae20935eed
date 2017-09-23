@@ -1,0 +1,20 @@
+package demoJunit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+	
+	Calculadora c;
+
+	@Before
+	public void inicio(){
+		
+	}
+	@Test
+	public void testSuma() {
+		fail("Not yet implemented");
+	}
+
+}

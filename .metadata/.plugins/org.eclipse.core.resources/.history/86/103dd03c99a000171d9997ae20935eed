@@ -1,0 +1,10 @@
+package demoJunit;
+
+public class Calculadora {
+	
+	public Integer suma(Integer num1, Integer num2){
+		
+		return new Integer(num1+num2);
+	}
+
+}

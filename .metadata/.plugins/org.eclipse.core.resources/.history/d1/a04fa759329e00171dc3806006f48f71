@@ -1,0 +1,22 @@
+package paquete;
+
+public class Jdbc_01 {
+	
+
+	public void conectar(){
+		
+	};
+	
+	public void crear(){
+		
+	};
+	
+	public void consultar(){
+		
+	};
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

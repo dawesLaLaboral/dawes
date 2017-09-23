@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/home/alumno/.m2/repository/javax/servlet/javax.servlet-api/4.0.0-b07/javax.servlet-api-4.0.0-b07.jar"/>
+  <path value="/home/alumno/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c-1_0-rt.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c-1_0.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt-1_0-rt.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt-1_0.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fn.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/permittedTaglibs.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/scriptfree.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql-1_0-rt.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql-1_0.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x-1_0-rt.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x-1_0.tld" project="SpringJdbc"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x.tld" project="SpringJdbc"/>
+    </library>
+   </libraries>
+  </path>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="34" name="%0" offset="1490" path="%1"/>
+   <linked-el length="62" name="%2" offset="1351" path="%1"/>
+   <linked-el length="35" name="%3" offset="962" path="%1"/>
+   <linked-el length="38" name="%4" offset="1095" path="%1"/>
+   <linked-el length="38" name="%5" offset="1095" path="%1"/>
+   <linked-el length="62" name="%5" offset="1351" path="%1"/>
+   <linked-el length="37" name="%5" offset="1229" path="%1"/>
+   <linked-el length="35" name="%5" offset="962" path="%1"/>
+   <linked-el length="34" name="%5" offset="1490" path="%1"/>
+   <linked-el length="37" name="%6" offset="1229" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="user.email" value="%0"/>
+  <alias path="user.dob" value="%2"/>
+  <alias path="user.userid" value="%3"/>
+  <alias path="user.firstName" value="%4"/>
+  <alias path="/SpringJdbc/WebContent/user.jsp" value="%1"/>
+  <alias path="user" value="%5"/>
+  <alias path="user.lastName" value="%6"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsp/jstl/fmt">
+   <prefix>fmt</prefix>
+  </uri>
+ </uris>
+</kb-project>

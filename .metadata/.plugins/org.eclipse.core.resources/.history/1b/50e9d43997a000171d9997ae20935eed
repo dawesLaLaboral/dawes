@@ -1,0 +1,22 @@
+package demoJunit;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class CalculadoraTest {
+	
+	private Calculadora cal;
+	
+	@Before
+	public void inicio(){
+		cal=new Calculadora();
+	}
+
+	@Test
+	public void testSuma() {
+		assertEquals("7+6",13, cal.suma(7, 6));
+	}
+
+}

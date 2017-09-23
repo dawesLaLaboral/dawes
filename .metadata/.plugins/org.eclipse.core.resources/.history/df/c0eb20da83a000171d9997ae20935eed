@@ -1,0 +1,8 @@
+package demoStatic;
+
+public class Ejemplo {
+	public int num1;
+	public static int num2;
+	
+
+}

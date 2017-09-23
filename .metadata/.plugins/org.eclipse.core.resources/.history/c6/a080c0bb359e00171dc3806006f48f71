@@ -1,0 +1,33 @@
+package paquete;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Jdbc_01 {
+	Connection con;
+
+	public void conectar() throws ClassNotFoundException, SQLException{
+		Class.forName("com.mysql.cj.jdbc.Driver");
+	//	con=DriverManager.getConnection("");
+		con=DriverManager.getConnection("jdbc:mysql://localhost/UserDB","root","temporal");
+	};
+	
+	
+	public void insertar() throws SQLException{
+		Statement s=con.createStatement();
+		s.executeUpdate("INSERT INTO `UserDB`.`users` (`firstname`,`lastname`,``email`) "+
+				"VALUES(`lola`,`saez`,`xxxx`)");
+		
+	}
+	public void consultar(){
+		
+	};
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Jdbc_01 j=new Jdbc_01();
+		j.conectar();
+		j.insertar();
+	}
+
+}
